@@ -34,7 +34,7 @@ From the repo root, run the tests to confirm everything is working:
 ```shell
 nosetests
 ```
-
+fails
 
 ## Examples
 
