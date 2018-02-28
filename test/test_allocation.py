@@ -109,7 +109,7 @@ class TestAllocation(unittest.TestCase):
                 u'age_18-34', u'age_65+', u'age_35-64', u'count', u'tract'
             ]
         self.assertEqual(set(allocator.allocated_households.columns.tolist()),
-                          set(expected_columns))
+                         set(expected_columns))
 
     def test_read_from_file(self):
         read_csv = MagicMock(return_value=pandas.DataFrame())
